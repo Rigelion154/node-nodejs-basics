@@ -2,7 +2,7 @@ import {
   ERROR_MESSAGE,
   REMOVE_FILE_NAME,
   SRC_FOLDER,
-} from "../constants/fs_constants/index.js";
+} from "../constants/index.js";
 import { unlink } from "fs/promises";
 import { getPath } from "../utils/getPath.js";
 

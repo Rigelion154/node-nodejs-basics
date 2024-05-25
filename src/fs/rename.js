@@ -5,7 +5,7 @@ import {
   ERROR_MESSAGE,
   SRC_FOLDER,
   WRONG_FILE_NAME,
-} from "../constants/fs_constants/index.js";
+} from "../constants/index.js";
 
 const WRONG_FILE_NAME_PATH = getPath(
   import.meta.url,

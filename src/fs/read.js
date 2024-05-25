@@ -3,7 +3,7 @@ import {
   ERROR_MESSAGE,
   READ_FILE_NAME,
   SRC_FOLDER,
-} from "../constants/fs_constants/index.js";
+} from "../constants/index.js";
 import { getPath } from "../utils/getPath.js";
 
 const READ_FILE_PATH = getPath(import.meta.url, SRC_FOLDER, READ_FILE_NAME);

@@ -4,7 +4,7 @@ import {
   ERROR_MESSAGE,
   SRC_FOLDER,
   COPY_DESTINATION_FOLDER,
-} from "../constants/fs_constants/index.js";
+} from "../constants/index.js";
 
 const SRC_FOLDER_PATH = getPath(import.meta.url, SRC_FOLDER);
 const DESTINATION_FOLDER_PATH = getPath(
